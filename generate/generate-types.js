@@ -10,7 +10,6 @@ declare function install(app: App): void;
 export { GCompA }
 declare const _default: {
     install: typeof install;
-    version: string;
 };
 export default _default;`;
 fs.outputFile(
