@@ -10,7 +10,7 @@
     "serve": "vite preview",
     "build:prod": "vite build --config vite.config.build.ts && npm run generate:types",
     "generate:types": "node generate/generate-types.js",
-    "publish:beta": "npm publish --tag=beta"
+    "publish": "npm publish --tag=beta"
   },
   "license": "MIT",
   "main": "dist/g-comp-a.umd.js",
