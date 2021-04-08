@@ -1,6 +1,6 @@
 {
   "name": "g-comp-a",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "private": false,
   "npm": {
     "tag": "beta"
@@ -11,7 +11,7 @@
     "serve": "vite preview",
     "build:prod": "vite build --config vite.config.build.ts && npm run generate:types",
     "generate:types": "node generate/generate-types.js",
-    "publish": "npm publish --tag=beta"
+    "pub": "npm publish --tag=beta"
   },
   "license": "MIT",
   "main": "dist/g-comp-a.umd.js",
@@ -27,5 +27,9 @@
     "vue-tsc": "^0.0.8",
     "@types/node": "^14.14.31",
     "fs-extra": "^9.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangxiaoxin/g-comp-a.git"
   }
 }
