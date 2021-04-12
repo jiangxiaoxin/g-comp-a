@@ -16,6 +16,7 @@
   "license": "MIT",
   "main": "dist/g-comp-a.umd.js",
   "module": "dist/g-comp-a.es.js",
+  "typings": "dist/gcompa.d.ts",
   "dependencies": {
     "vue": "^3.0.5"
   },
