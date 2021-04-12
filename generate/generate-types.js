@@ -13,7 +13,7 @@ declare const _default: {
 };
 export default _default;`;
 fs.outputFile(
-  path.resolve(__dirname, '../dist/gcompa.d.ts'),
+  path.resolve(__dirname, '../dist/g-comp-a.umd.d.ts'),
   fileStr,
   'utf8',
   () => {}
