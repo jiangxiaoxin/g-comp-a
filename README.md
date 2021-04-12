@@ -1,3 +1,3 @@
 # Vue 3 + Typescript + Vite
 
-npm package demo
+a npm package demo for vue3.0 + typescript + vite
