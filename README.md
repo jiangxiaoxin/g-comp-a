@@ -32,3 +32,7 @@ and then in *.vue
 ## next
 
 继续扩展，就会得到一个组件库
+
+## tips
+
+`package.json`里指定的`main`是`dist/g-comp-a.umd.js`，那么`.d.ts`就放在同目录下，叫`g-comp-a.umd.d.ts`
