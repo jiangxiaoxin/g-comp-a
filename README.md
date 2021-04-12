@@ -28,3 +28,7 @@ and then in *.vue
 
 <GCompA :msg="count" @click-btn="clickHandler"/>
 ```
+
+## next
+
+继续扩展，就会得到一个组件库
