@@ -2,16 +2,13 @@
   "name": "g-comp-a",
   "version": "1.0.1",
   "private": false,
-  "npm": {
-    "tag": "beta"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "build:prod": "vite build --config vite.config.build.ts && npm run generate:types",
     "generate:types": "node generate/generate-types.js",
-    "pub": "npm publish --tag=beta"
+    "pub": "npm publish"
   },
   "license": "MIT",
   "main": "dist/g-comp-a.umd.js",
